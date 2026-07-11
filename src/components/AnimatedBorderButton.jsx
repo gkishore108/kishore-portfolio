@@ -1,11 +1,15 @@
 import { Download } from "lucide-react";
 
-export const AnimatedBorderButton = ({ children, href }) => {
+export const AnimatedBorderButton = ({ children, href, download ,...props }) => {
   let wrapperClasses =
     "relative bg-transparent border border-border text-foreground hover:border-primary/50 transition-all duration-1000 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed group px-8 py-4 text-lg font-medium rounded-full overflow-visible animated-border";
 
   if (href) {
     wrapperClasses = "block max-w-[250px] w-full mx-auto" + " " + wrapperClasses;
+  }
+
+  if (href && download) {
+    wrapperClasses = "block max-w-[250px] w-full mx-0" + " " + wrapperClasses;
   }
 
   const contents = (
@@ -36,11 +40,13 @@ export const AnimatedBorderButton = ({ children, href }) => {
 
   if (href) {
     return (
-      <a href={href} className={wrapperClasses}>
+      <a href={href} className={wrapperClasses} {...props}>
         {contents}
       </a>
     );
   }
 
-  return <button type="button" className={wrapperClasses}>{contents}</button>;
+  return <button type="button" className={wrapperClasses} {...props}>
+    {contents}
+  </button>;
 };
