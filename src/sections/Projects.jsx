@@ -8,7 +8,7 @@ const projects = [
     description:
       "A custom Shopify Team Search application built for Golf Teams which lets them easily discover and select products using smart filters like team color, size availability, and brand preferences.",
     video: "/projects/quick-order.mp4",
-    thumbnail: "/projects/quick-order.jpg",
+    thumbnail: "/projects/quick-order.png",
     tags: [
       "React",
       "GraphQL",
@@ -27,7 +27,7 @@ const projects = [
     description:
       "A one-click customization solution that enables team coaches and players to select logos from a design library, apply templates, and place orders seamlessly.",
     video: "/projects/one-click-customization.mp4",
-    thumbnail: "/projects/one-click-customization.jpg",
+    thumbnail: "/projects/one-click-customization.png",
     tags: [
       "JavaScript",
       "Fabric.js",
@@ -44,7 +44,7 @@ const projects = [
     description:
       "A personalized team store platform that lets users navigate to their team's dedicated storefront and order products featuring their team's branding.",
     video: "/projects/teamstore-project.mp4",
-    thumbnail: "/projects/teamstore-project.jpg",
+    thumbnail: "/projects/teamstore-project.png",
     tags: [
       "JavaScript",
       "Fabric.js",
@@ -61,7 +61,7 @@ const projects = [
     description:
       "Redesigned Caliwear's Shopify storefront and enhanced its frontend experience with UI improvements, SEO, and social marketing strategies.",
     video: "/projects/caliwear-sd.mp4",
-    thumbnail: "/projects/caliwear-sd.jpg",
+    thumbnail: "/projects/caliwear-sd.png",
     tags: [
       "Google Analytics",
       "Adobe Photoshop",
@@ -80,7 +80,7 @@ const projects = [
     description:
       "An award-winning Shopify storefront built with clean, modular, reusable code for a fast and SEO-friendly shopping experience.",
     video: "/projects/go247men.mp4",
-    thumbnail: "/projects/go247men.jpg",
+    thumbnail: "/projects/go247men.png",
     tags: [
       "Liquid",
       "jQuery",
@@ -100,7 +100,7 @@ const projects = [
     description:
       "Developed a content-rich WordPress website using reusable components and Advanced Custom Fields (ACF) for easy content management.",
     video: "/projects/miresball.mp4",
-    thumbnail: "/projects/miresball.jpg",
+    thumbnail: "/projects/miresball.png",
     tags: [
       "WordPress",
       "PHP",
