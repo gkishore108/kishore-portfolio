@@ -1,6 +1,6 @@
 const experiences = [
   {
-    period: "2023 — Present",
+    period: "2023 — 2026",
     role: "Full-Stack Developer",
     company: " Golfteamproducts, Inc.",
     description:
@@ -9,16 +9,7 @@ const experiences = [
     current: true,
   },
   {
-    period: "2025 — 2026",
-    role: "Shopify Developer",
-    company: " Caliwear, Inc.",
-    description:
-      "Owned frontend development of a Shopify storefront, leading a full homepage redesign to improve usability and conversions. Integrated design, SEO, and social marketing efforts using tools like Photoshop and CapCut AI to enhance brand presence and drive sales growth.",
-    technologies: ["Liquid", "Javascript", "Shopify Apps", "Adobe Photoshop", "Capcut AI", "Gemini", "SEO", "Google Analytics", "Google Search Console"],
-    current: true,
-  },
-  {
-    period: "2019 — 2023",
+    period: "2021 — 2023",
     role: "Web Developer",
     company: "Threeomens, Inc.",
     description:

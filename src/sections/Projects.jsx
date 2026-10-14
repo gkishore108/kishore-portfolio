@@ -6,49 +6,113 @@ const projects = [
   {
     title: "Team Search - Advanced Search Shopify App",
     description:
-      "A custom Shopify Team Search application built for Golf Teams which let them easily discover and select products using smart filters like team color, size availability, and brand preferences.",
+      "A custom Shopify Team Search application built for Golf Teams which lets them easily discover and select products using smart filters like team color, size availability, and brand preferences.",
     video: "/projects/quick-order.mp4",
-    tags: ["React","GraphQL","Alpine.JS","NodeJS","Liquid","CSS","Web Components API" ,"Shopify Storefront API", "Shopify Admin API"],
+    thumbnail: "/projects/quick-order.jpg",
+    tags: [
+      "React",
+      "GraphQL",
+      "Alpine.JS",
+      "NodeJS",
+      "Liquid",
+      "CSS",
+      "Web Components API",
+      "Shopify Storefront API",
+      "Shopify Admin API",
+    ],
     link: "https://golfteamproducts.com/pages/quick-order",
   },
   {
     title: "One Click Customization - Shopify App",
     description:
-      "A one-click customization solution that enables team coaches and players to quickly select logos from a design library, apply templates, and place orders seamlessly, and thus streamlining the order process.",
+      "A one-click customization solution that enables team coaches and players to select logos from a design library, apply templates, and place orders seamlessly.",
     video: "/projects/one-click-customization.mp4",
-    tags: ["Javascript","Fabric.js","Liquid","CSS","Web Components API","Shopify Metaobjects", "Shopify Metafields"],
+    thumbnail: "/projects/one-click-customization.jpg",
+    tags: [
+      "JavaScript",
+      "Fabric.js",
+      "Liquid",
+      "CSS",
+      "Web Components API",
+      "Shopify Metaobjects",
+      "Shopify Metafields",
+    ],
     link: "https://golfteamproducts.com/products/3-stripes-chest-polo",
   },
   {
     title: "Teamstores - Shopify App",
     description:
-      "A personalized team store platform that lets users seamlessly navigate to their team’s dedicated storefront and order products featuring their team’s branding.",
+      "A personalized team store platform that lets users navigate to their team's dedicated storefront and order products featuring their team's branding.",
     video: "/projects/teamstore-project.mp4",
-    tags: ["Javascript","Fabric.js","Liquid", "CSS","Web Components API","Shopify Metaobjects", "Shopify Metafields"],
+    thumbnail: "/projects/teamstore-project.jpg",
+    tags: [
+      "JavaScript",
+      "Fabric.js",
+      "Liquid",
+      "CSS",
+      "Web Components API",
+      "Shopify Metaobjects",
+      "Shopify Metafields",
+    ],
     link: "https://golfteamproducts.com",
   },
   {
     title: "Caliwear SD - Shopify Storefront",
     description:
-      "Redesigned Caliwear's Shopify storefront and enhanced frontend experience, combining UI improvements with SEO and social marketing strategies to increase traffic and sales.",
+      "Redesigned Caliwear's Shopify storefront and enhanced its frontend experience with UI improvements, SEO, and social marketing strategies.",
     video: "/projects/caliwear-sd.mp4",
-    tags: ["Google Analytics","Adobe Photoshop","Liquid", "Shopify Apps", "Capcut AI", "SEO", "Google Search Console", "Instagram Marketing", "TikTok Marketing"],
+    thumbnail: "/projects/caliwear-sd.jpg",
+    tags: [
+      "Google Analytics",
+      "Adobe Photoshop",
+      "Liquid",
+      "Shopify Apps",
+      "CapCut AI",
+      "SEO",
+      "Google Search Console",
+      "Instagram Marketing",
+      "TikTok Marketing",
+    ],
     link: "https://caliwearsd.com",
   },
   {
     title: "Go247men - Shopify Storefront",
     description:
-      "An award winning Shopify storefront developed for GO247 Men, transforming design concepts into clean, modular, and reusable code to deliver a fast, efficient, and SEO-friendly shopping experience.",
+      "An award-winning Shopify storefront built with clean, modular, reusable code for a fast and SEO-friendly shopping experience.",
     video: "/projects/go247men.mp4",
-    tags: ["Liquid","Jquery","Flickity.js","SCSS","HTML","Shopify Tags", "Adobe Phtoshop", "Adobe XD", "Adobe illustrator", "SEO"],
+    thumbnail: "/projects/go247men.jpg",
+    tags: [
+      "Liquid",
+      "jQuery",
+      "Flickity.js",
+      "SCSS",
+      "HTML",
+      "Shopify Tags",
+      "Adobe Photoshop",
+      "Adobe XD",
+      "Adobe Illustrator",
+      "SEO",
+    ],
     link: "https://www.go247men.com/",
   },
   {
-    title: "Miresball - A Custom Wordpress Website",
+    title: "Miresball - A Custom WordPress Website",
     description:
-      "Developed a custom content-rich WordPress website by converting modern designs into scalable, reusable components. Integrated Advanced Custom Fields (ACF) to empower the client with a user-friendly backend for seamless content management.",
+      "Developed a content-rich WordPress website using reusable components and Advanced Custom Fields (ACF) for easy content management.",
     video: "/projects/miresball.mp4",
-    tags: ["WordPress","PHP","JavaScript","SCSS","HTML","Advanced Custom Fields","Adobe Photoshop", "Adobe XD", "Adobe Illustrator", "SEO"],
+    thumbnail: "/projects/miresball.jpg",
+    tags: [
+      "WordPress",
+      "PHP",
+      "JavaScript",
+      "SCSS",
+      "HTML",
+      "Advanced Custom Fields",
+      "Adobe Photoshop",
+      "Adobe XD",
+      "Adobe Illustrator",
+      "SEO",
+    ],
     link: "https://www.miresball.com/",
   },
 ];
@@ -89,7 +153,7 @@ export const Projects = () => {
             >
               {/* Image */}
               <div className="relative overflow-hidden aspect-video">
-                <VideoOnView src={project.video} />
+                <VideoOnView src={project.video} thumbnail={project.thumbnail} />
 
                 <div className="absolute inset-0 bg-gradient-to-t from-card via-card/50 to-transparent opacity-60" />
 
